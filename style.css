@@ -12,7 +12,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  background: #b8d1b8;
   color: #333;
 }
 
@@ -33,6 +33,7 @@ h2{
   font-size: 34px;
   text-align: center;
   margin-bottom: 20px;
+  color: #3D583C;
 }
 
 .error-msg{
@@ -57,7 +58,7 @@ input{
 button{
   width: 100%;
   padding: 12px;
-  background: rgb(59, 170, 207);
+  background: #3D583C;
   border-radius: 6px;
   border: none;
   cursor: pointer;
@@ -69,7 +70,7 @@ button{
 }
 
 button:hover{
-  background: rgb(99, 190, 220);
+  background: #88c486;
 }
 
 p{
@@ -80,10 +81,18 @@ p{
 
 p a{
   text-decoration: none;
-  color: rgb(48, 173, 240);
+  color: #3D583C;
 }
 
 p a:hover{
   text-decoration: underline;
   
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+  width: 65%;
 }

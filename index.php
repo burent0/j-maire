@@ -12,6 +12,7 @@
   <div class="container">
     <div class="form-box" id="login-form">
         <form action="login.php" method="post">
+          <img src="photos/jmaire_logo.png" alt="Logo">
           <h2>Login</h2>
           <?php if (isset($_GET['error'])): ?>
             <p class="error-msg">

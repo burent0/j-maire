@@ -20,6 +20,7 @@ if (!isset($_SESSION['uid'])) {
   <div class="container">
     <div class="form-box">
       <h2>Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?></h2>
+      <p><a href="menu_list.php">Manage Farm Menu</a></p>
       <p><a href="logout.php">Logout</a></p>
     </div>
   </div>
